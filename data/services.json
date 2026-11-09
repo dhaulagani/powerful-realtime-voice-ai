@@ -1,0 +1,370 @@
+[
+  {
+    "category": "End-to-End Speech-to-Speech (S2S) Models",
+    "name": "Kyutai Moshi",
+    "url": "https://kyutai.org/moshi",
+    "repo_url": "https://github.com/kyutai-labs/moshi",
+    "latency_target": "sub-200ms",
+    "capability": "First open-source full-duplex speech-text foundation model (7B) with simultaneous listening and talking",
+    "license": "Apache-2.0",
+    "check_url": "https://kyutai.org",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1058,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1058ms`"
+    }
+  },
+  {
+    "category": "End-to-End Speech-to-Speech (S2S) Models",
+    "name": "Mini-Omni 2",
+    "url": "https://github.com/gpt-omni/mini-omni2",
+    "repo_url": "https://github.com/gpt-omni/mini-omni2",
+    "latency_target": "sub-300ms",
+    "capability": "Real-time multimodal speech-to-speech conversational model with continuous acoustic listening & interruption",
+    "license": "MIT",
+    "check_url": "https://github.com/gpt-omni/mini-omni2",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1081,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1081ms`"
+    }
+  },
+  {
+    "category": "End-to-End Speech-to-Speech (S2S) Models",
+    "name": "GLM-4-Voice (Zhipu AI)",
+    "url": "https://github.com/THUDM/GLM-4-Voice",
+    "repo_url": "https://github.com/THUDM/GLM-4-Voice",
+    "latency_target": "sub-300ms",
+    "capability": "End-to-end voice reasoning model supporting emotional expressiveness, tone shifting, and streaming audio generation",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/THUDM/GLM-4-Voice",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1089,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1089ms`"
+    }
+  },
+  {
+    "category": "End-to-End Speech-to-Speech (S2S) Models",
+    "name": "Ultravox (Fixie.ai)",
+    "url": "https://github.com/fixie-ai/ultravox",
+    "repo_url": "https://github.com/fixie-ai/ultravox",
+    "latency_target": "sub-200ms",
+    "capability": "Open-weights multimodal speech LLM mapping audio encoders directly into Llama 3 with streaming output",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/fixie-ai/ultravox",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 657,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 657ms`"
+    }
+  },
+  {
+    "category": "End-to-End Speech-to-Speech (S2S) Models",
+    "name": "LLaMA-Omni",
+    "url": "https://github.com/ictnlp/LLaMA-Omni",
+    "repo_url": "https://github.com/ictnlp/LLaMA-Omni",
+    "latency_target": "sub-250ms",
+    "capability": "Simultaneous low-latency speech interaction built on Llama-3.1 with instant acoustic decoding",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/ictnlp/LLaMA-Omni",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 585,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 585ms`"
+    }
+  },
+  {
+    "category": "End-to-End Speech-to-Speech (S2S) Models",
+    "name": "Freeze-Omni",
+    "url": "https://github.com/Vchitect/Freeze-Omni",
+    "repo_url": "https://github.com/Vchitect/Freeze-Omni",
+    "latency_target": "sub-300ms",
+    "capability": "Conversational speech model keeping LLM weights frozen while training low-latency cross-modal adapters",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/Vchitect/Freeze-Omni",
+    "health": {
+      "status": "DEGRADED",
+      "code": 404,
+      "latency_ms": 369,
+      "badge": "![Degraded](https://img.shields.io/badge/Status-HTTP_404-d29922?style=flat-square)"
+    }
+  },
+  {
+    "category": "Ultra-Fast Neural TTS Models",
+    "name": "Kokoro-82M (Hexgrad)",
+    "url": "https://github.com/hexgrad/kokoro",
+    "repo_url": "https://github.com/hexgrad/kokoro",
+    "latency_target": "sub-100ms",
+    "capability": "82M parameter ultra-compact TTS delivering ElevenLabs-grade human naturalness at 10x faster execution",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/hexgrad/kokoro",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 665,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 665ms`"
+    }
+  },
+  {
+    "category": "Ultra-Fast Neural TTS Models",
+    "name": "Outetts (OuteAI)",
+    "url": "https://github.com/edwko/OuteTTS",
+    "repo_url": "https://github.com/edwko/OuteTTS",
+    "latency_target": "sub-150ms",
+    "capability": "Pure language-model architecture for voice synthesis using structured audio tokens without complex diffusion",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/edwko/OuteTTS",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 631,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 631ms`"
+    }
+  },
+  {
+    "category": "Ultra-Fast Neural TTS Models",
+    "name": "CosyVoice 2 (Alibaba)",
+    "url": "https://github.com/FunAudioLLM/CosyVoice",
+    "repo_url": "https://github.com/FunAudioLLM/CosyVoice",
+    "latency_target": "sub-150ms",
+    "capability": "Highly controllable multi-lingual speech generation with zero-shot voice cloning and emotional rhythm control",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/FunAudioLLM/CosyVoice",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1054,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1054ms`"
+    }
+  },
+  {
+    "category": "Ultra-Fast Neural TTS Models",
+    "name": "F5-TTS",
+    "url": "https://github.com/SWivid/F5-TTS",
+    "repo_url": "https://github.com/SWivid/F5-TTS",
+    "latency_target": "sub-200ms",
+    "capability": "Non-autoregressive flow-matching speech synthesis offering fast zero-shot voice cloning and editing",
+    "license": "MIT",
+    "check_url": "https://github.com/SWivid/F5-TTS",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 691,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 691ms`"
+    }
+  },
+  {
+    "category": "Ultra-Fast Neural TTS Models",
+    "name": "Fish-Speech (Fish Audio)",
+    "url": "https://github.com/fishaudio/fish-speech",
+    "repo_url": "https://github.com/fishaudio/fish-speech",
+    "latency_target": "sub-150ms",
+    "capability": "State-of-the-art text-to-speech with sub-second time-to-first-audio and cross-lingual voice transfer",
+    "license": "CC-BY-NC-SA-4.0",
+    "check_url": "https://github.com/fishaudio/fish-speech",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 636,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 636ms`"
+    }
+  },
+  {
+    "category": "Ultra-Fast Neural TTS Models",
+    "name": "ChatTTS (2Noise)",
+    "url": "https://github.com/2noise/ChatTTS",
+    "repo_url": "https://github.com/2noise/ChatTTS",
+    "latency_target": "sub-200ms",
+    "capability": "Conversational speech model designed specifically for dialogue with natural laughs, sighs, and interjections",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/2noise/ChatTTS",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 563,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 563ms`"
+    }
+  },
+  {
+    "category": "Streaming Speech Recognition (ASR)",
+    "name": "Faster-Whisper",
+    "url": "https://github.com/SYSTRAN/faster-whisper",
+    "repo_url": "https://github.com/SYSTRAN/faster-whisper",
+    "latency_target": "sub-100ms",
+    "capability": "CTranslate2-powered Whisper running 4x faster with half the memory footprint for streaming transcription",
+    "license": "MIT",
+    "check_url": "https://github.com/SYSTRAN/faster-whisper",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 645,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 645ms`"
+    }
+  },
+  {
+    "category": "Streaming Speech Recognition (ASR)",
+    "name": "Whisper.cpp",
+    "url": "https://github.com/ggerganov/whisper.cpp",
+    "repo_url": "https://github.com/ggerganov/whisper.cpp",
+    "latency_target": "sub-50ms",
+    "capability": "High-performance plain C/C++ implementation of Whisper optimized for Apple Silicon (Metal) and CPU SIMD",
+    "license": "MIT",
+    "check_url": "https://github.com/ggerganov/whisper.cpp",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1034,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1034ms`"
+    }
+  },
+  {
+    "category": "Streaming Speech Recognition (ASR)",
+    "name": "SenseVoice (Alibaba)",
+    "url": "https://github.com/FunAudioLLM/SenseVoice",
+    "repo_url": "https://github.com/FunAudioLLM/SenseVoice",
+    "latency_target": "sub-70ms",
+    "capability": "Ultra-fast multilingual speech recognition with audio event detection (cough, music, laughter) and sentiment",
+    "license": "MIT",
+    "check_url": "https://github.com/FunAudioLLM/SenseVoice",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1119,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1119ms`"
+    }
+  },
+  {
+    "category": "Streaming Speech Recognition (ASR)",
+    "name": "Distil-Whisper",
+    "url": "https://github.com/huggingface/distil-whisper",
+    "repo_url": "https://github.com/huggingface/distil-whisper",
+    "latency_target": "sub-80ms",
+    "capability": "Distilled, lightweight Whisper variants operating at 6x speed with 99% accuracy retention",
+    "license": "MIT",
+    "check_url": "https://github.com/huggingface/distil-whisper",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 2181,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 2181ms`"
+    }
+  },
+  {
+    "category": "Real-Time Orchestration & WebRTC",
+    "name": "LiveKit Agents",
+    "url": "https://livekit.io/agents",
+    "repo_url": "https://github.com/livekit/agents",
+    "latency_target": "sub-100ms",
+    "capability": "Industry-standard real-time WebRTC framework for voice, video, and multimodal AI agents with native turn-taking",
+    "license": "Apache-2.0",
+    "check_url": "https://livekit.io",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 511,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 511ms`"
+    }
+  },
+  {
+    "category": "Real-Time Orchestration & WebRTC",
+    "name": "Pipecat AI",
+    "url": "https://www.pipecat.ai",
+    "repo_url": "https://github.com/pipecat-ai/pipecat",
+    "latency_target": "sub-120ms",
+    "capability": "Python open-source framework for building voice, video, and multimodal conversational agents over WebRTC",
+    "license": "BSD-2-Clause",
+    "check_url": "https://www.pipecat.ai",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 163,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 163ms`"
+    }
+  },
+  {
+    "category": "Real-Time Orchestration & WebRTC",
+    "name": "TEN Framework (Agora)",
+    "url": "https://github.com/TEN-framework/ten_framework",
+    "repo_url": "https://github.com/TEN-framework/ten_framework",
+    "latency_target": "sub-150ms",
+    "capability": "Real-time multimodal conversational framework bridging hardware, wearables, and voice intelligence",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/TEN-framework/ten_framework",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1028,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1028ms`"
+    }
+  },
+  {
+    "category": "Real-Time Orchestration & WebRTC",
+    "name": "Daily Bots",
+    "url": "https://www.daily.co/products/bots/",
+    "repo_url": "https://github.com/daily-co/daily-bots",
+    "latency_target": "sub-100ms",
+    "capability": "Managed WebRTC infrastructure and cloud pipelines tailored for ultra-low latency voice agents",
+    "license": "Commercial / Free Tier",
+    "check_url": "https://www.daily.co",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 631,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 631ms`"
+    }
+  },
+  {
+    "category": "Voice Activity Detection (VAD) & Turn-Taking",
+    "name": "Silero VAD v5",
+    "url": "https://github.com/snakers4/silero-vad",
+    "repo_url": "https://github.com/snakers4/silero-vad",
+    "latency_target": "sub-1ms",
+    "capability": "Enterprise-grade pre-trained voice activity detector processing 30ms audio chunks in under 1ms",
+    "license": "MIT",
+    "check_url": "https://github.com/snakers4/silero-vad",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 671,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 671ms`"
+    }
+  },
+  {
+    "category": "Voice Activity Detection (VAD) & Turn-Taking",
+    "name": "py-webrtcvad",
+    "url": "https://github.com/wiseman/py-webrtcvad",
+    "repo_url": "https://github.com/wiseman/py-webrtcvad",
+    "latency_target": "sub-1ms",
+    "capability": "Python interface to Google WebRTC's lightweight C-based Voice Activity Detector",
+    "license": "MIT",
+    "check_url": "https://github.com/wiseman/py-webrtcvad",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 582,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 582ms`"
+    }
+  },
+  {
+    "category": "Voice Activity Detection (VAD) & Turn-Taking",
+    "name": "Voice-BPE & Audio Tokenizers",
+    "url": "https://github.com/fishaudio/fish-speech",
+    "repo_url": "https://github.com/fishaudio/fish-speech",
+    "latency_target": "sub-10ms",
+    "capability": "Acoustic vector quantization and discrete audio tokenizers for speech language models",
+    "license": "Apache-2.0",
+    "check_url": "https://github.com/fishaudio/fish-speech",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 99,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 99ms`"
+    }
+  }
+]
